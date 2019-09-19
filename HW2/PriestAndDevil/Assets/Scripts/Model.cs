@@ -41,6 +41,7 @@ namespace mygame{
         public BoatModel(){
             boat_pos = 0;
             boat = Object.Instantiate(Resources.Load("Perfabs/boat", typeof(GameObject)), new Vector3(4,0.8F,0), Quaternion.identity, null) as GameObject;
+            boat.transform.Rotate(0, 90, 0, Space.Self);
             fromPos = new Vector3[]{new Vector3(3.5F,1.2F,0), new Vector3(4.5F,1.2F,0)};
             toPos = new Vector3[]{new Vector3(-4.5F,1.2F,0),new Vector3(-3.5F,1.2F,0)};
             move = boat.AddComponent(typeof(Move)) as Move;
@@ -51,7 +52,7 @@ namespace mygame{
         public void moveBoat(){
             if(boat_pos == 0){
                 //Debug.Log("333");
-                move.MoveTo(new Vector3(-4,0.8F,0));
+                move.MoveTo(new Vector3(-3F,0.8F,0));
                 boat_pos = 1;
             }
             else if(boat_pos == 1){
@@ -141,11 +142,13 @@ namespace mygame{
 
         public RoleModel(string type){
             if(type == "priest"){
-                role = Object.Instantiate(Resources.Load("Perfabs/priest", typeof(GameObject)), Vector3.zero, Quaternion.identity, null) as GameObject;
+                role = Object.Instantiate(Resources.Load("Perfabs/priest1", typeof(GameObject)), Vector3.zero, Quaternion.identity, null) as GameObject;
+                role.transform.Rotate(0, 190, 0, Space.Self);
                 roleType = 0;
             }
             else if(type == "devil"){
-                role = Object.Instantiate(Resources.Load("Perfabs/devil", typeof(GameObject)), Vector3.zero, Quaternion.identity, null) as GameObject;
+                role = Object.Instantiate(Resources.Load("Perfabs/devil1", typeof(GameObject)), Vector3.zero, Quaternion.identity, null) as GameObject;
+                role.transform.Rotate(0, 240, 0, Space.Self);
                 roleType = 1;
             }
             else{
@@ -208,8 +211,8 @@ namespace mygame{
         int coastSign;//开始陆地0，结束陆地1
         RoleModel[] roles = new RoleModel[6];//3个魔鬼3个牧师
         public CoastModel(string state){
-            positions = new Vector3[] {new Vector3(5.5F,1.9F,0), new Vector3(6.5F,1.9F,0), new Vector3(7.5F,1.9F,0), 
-            new Vector3(8.5F,1.9F,0), new Vector3(9.5F,1.9F,0), new Vector3(10.5F,1.9F,0)};
+            positions = new Vector3[] {new Vector3(5.5F,1.78F,0), new Vector3(6.5F,1.78F,0), new Vector3(7.5F,1.78F,0), 
+            new Vector3(8.6F,1.78F,0), new Vector3(9.6F,1.78F,0), new Vector3(10.6F,1.8F,0)};
 
             if(state == "from"){
                 coast = Object.Instantiate (Resources.Load ("Perfabs/coast", typeof(GameObject)), new Vector3(8,0.7F,0), Quaternion.identity, null) as GameObject;

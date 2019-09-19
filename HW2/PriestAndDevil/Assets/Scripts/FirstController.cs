@@ -32,6 +32,7 @@ public class FirstController:MonoBehaviour, ISceneController, UserAction{
         for(int i = 0;i < 3;i ++){
             RoleModel priest = new RoleModel("priest");
             priest.setName("priest" + i);
+            //transform.Rotate(0, 90, 0, Space.Self);
             //priest.setClick();
             //Debug.Log(startCoast.getEmptyIndex());
             priest.setPos(startCoast.getEmptyPos());
