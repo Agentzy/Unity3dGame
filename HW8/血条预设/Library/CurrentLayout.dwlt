@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -68,10 +68,10 @@ MonoBehaviour:
     y: 0
     width: 758
     height: 740
-  m_MinSize: {x: 232, y: 471}
-  m_MaxSize: {x: 10002, y: 14021}
+  m_MinSize: {x: 232, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 27
+  controlID: 24
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,7 +93,7 @@ MonoBehaviour:
     y: 0
     width: 1415
     height: 790
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -137,10 +137,10 @@ MonoBehaviour:
     y: 30
     width: 1415
     height: 740
-  m_MinSize: {x: 713, y: 471}
-  m_MaxSize: {x: 18008, y: 14021}
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 26
+  controlID: 23
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,8 +179,8 @@ MonoBehaviour:
     y: 0
     width: 758
     height: 467
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 18}
@@ -392,7 +392,7 @@ MonoBehaviour:
     y: 176
     width: 411
     height: 719
-  m_ScrollPosition: {x: 0, y: 8}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 100
@@ -442,13 +442,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Perfabs
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: "/Users/zengy/\u5927\u4E09\u4E0A/3d\u6E38\u620F\u8BBE\u8BA1/Unity3dGame/\u8840\u6761\u9884\u8BBE"
+  m_LastProjectPath: "/Users/zengy/\u5927\u4E09\u4E0A/3d\u6E38\u620F\u8BBE\u8BA1/Unity3dGame/HW8/\u8840\u6761\u9884\u8BBE"
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 5}
-    m_SelectedIDs: 8a280000
-    m_LastClickedID: 10378
-    m_ExpandedIDs: 30250000e42b0000e62b0000fc2b0000ffffff7f
+    m_SelectedIDs: 32250000
+    m_LastClickedID: 9522
+    m_ExpandedIDs: 0000000002250000ca250000d0260000d4260000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -476,7 +476,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000002250000ca250000d0260000d4260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -507,18 +507,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300001c260000a4250000e4310000722b0000a22b00005c2800008e2a00004a2800001229000030290000ae290000222b00003a2a0000702c00008e63fbff5e68fdff762800001a45fdff0cb6fcff0049fdff68a9f9ff7c2c000086d8fdfffc98fdff9827000046250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: LookAtCarmera
-      m_OriginalName: LookAtCarmera
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 13952
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_CreateAssetUtility:
@@ -709,9 +709,9 @@ MonoBehaviour:
     height: 719
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c61bfdff
-    m_LastClickedID: -189498
-    m_ExpandedIDs: d21bfdffda1cfdff00dffdff0cdffdff18dffdff8c16ffffa416ffff001affff3663ffff44fbffff00000000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: defbffffe6fbffffe8fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
