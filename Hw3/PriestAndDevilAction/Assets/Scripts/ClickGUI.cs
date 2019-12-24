@@ -21,8 +21,6 @@ public class ClickGUI : MonoBehaviour
     }
 
     void OnMouseDown(){
-        //if (action == null)
-          //  Debug.Log(role.getName());
         if(role == null && boat == null)
             return;
         if(boat != null){

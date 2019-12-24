@@ -37,7 +37,6 @@ public class InterGUI : MonoBehaviour
                 state = 1;//时间耗尽
         }
         else if(state == 1){
-            //System.Threading.Thread.Sleep(200);//延时使游戏更顺畅
             GUI.Label(new Rect(Screen.width/2-50,Screen.height/2-200,100,50),"GameOver!",style);
             if (GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2-100, 140, 70), "Restart",buttonStyle)){
                 state = 0;
@@ -46,7 +45,6 @@ public class InterGUI : MonoBehaviour
             }
         }
         else if(state == 2){
-            //System.Threading.Thread.Sleep(200);
             GUI.Label(new Rect(Screen.width/2-50,Screen.height/2-200,100,50),"You Win!",style);
             if (GUI.Button(new Rect(Screen.width / 2 - 70, Screen.height / 2-100, 140, 70), "Restart",buttonStyle)){
                 state = 0;

@@ -18,7 +18,6 @@ public class FirstController:MonoBehaviour, ISceneController, UserAction{
 
     void Awake(){
         SSDirector director = SSDirector.getInstance();
-        //Debug.Log("222");
         director.currentScenceController = this;
         inter_gui = gameObject.AddComponent<InterGUI>() as InterGUI;
         LoadResources();
@@ -72,9 +71,7 @@ public class FirstController:MonoBehaviour, ISceneController, UserAction{
     public void reStart(){
         startCoast.Reset();
         endCoast.Reset();
-        //Debug.Log(boat.getBoatPos());
         boat.Reset();
-        //boat.moveBoat();
         for(int i = 0;i < roles.Length;i ++){
             roles[i].Reset();
         }

@@ -83,9 +83,7 @@ public class CCMoveToAction:SSAction{
 	}
 
 	//动作建立
-	public override void Start(){
-
-	}
+	public override void Start(){}
 }
 
 public class CCSequenceAction:SSAction,ISSActionCallback{
@@ -193,7 +191,6 @@ public class SceneActionManager:SSActionManger,ISSActionCallback{
                 coast = startCoast;
             boat.rolegetOffBoat(role.getName());
             move(role,coast.getEmptyPos());
-            //role.setPos(coast.getEmptyPos());
             role.getOnCoast(coast);
             coast.getOnCoast(role);
         }
